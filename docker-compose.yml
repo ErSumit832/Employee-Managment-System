@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: "ems_db"
       MYSQL_ROOT_PASSWORD: "Emsdb@321"
     ports:
-      - "3306:3306"
+      - "3000:3306"
     volumes:
       - emsdbvol:/var/lib/mysql
     networks:
